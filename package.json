@@ -1,9 +1,10 @@
 {
-  "name": "library",
+  "name": "@Babalwa01/library",
   "version": "0.0.1",
   "description": "A React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "exit 0"
   },
   "author": "Babalwa Mbolekwa",
   "license": "UNLICENSED",
@@ -25,5 +26,8 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "@rollup/plugin-typescript": "8.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Babalwa01"
   }
 }
